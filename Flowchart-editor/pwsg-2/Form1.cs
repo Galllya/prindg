@@ -147,17 +147,7 @@ namespace pwsg_2
                 blocks.Add(blok1);
             }
 
-            stopBlockButton.BackColor = Color.FromArgb(192, 192, 255);
-            stopBlockButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(255 / 3, 192, 192, 255);
-            currentBlock = new StopBlock();
-            currentBlock.SetGraphics(pictureBox1, flagGraphics);
-            Block blok2 = currentBlock.CloneNew();
-            if (blok2 != null)
-            {
-                blok2.SetCoordinates(last_weidth, last_height);
-                blok2.Print();
-                blocks.Insert(select_arrow_index + 1, blok2);
-            }
+
         }
 
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
@@ -204,6 +194,19 @@ namespace pwsg_2
 
 
                             }
+
+                            if (select_blok.text == "ЦИКЛ")
+                            {
+                                foreach (Block b in blocks.Where(bloc => bloc.y > blok.y).Take(10).ToArray())
+                                {
+
+                                    b.Clear();
+                                    blocks.Remove(b);
+
+                                }
+
+
+                            }
                             else
                             {
                                 //тут просто вылазиет странная ошибка, хз как по человески менять
@@ -218,7 +221,12 @@ namespace pwsg_2
                             if (select_blok.text == "ЛОГИЧЕСКОЕ УСЛОВИЕ")
                                 ReprintButtonFigures(150, false);
                             else
+                            {
+                                if (select_blok.text == "ЦИКЛ")
+                                    ReprintButtonFigures(330, false);
+                                 else
                                 ReprintButtonFigures(98, false);
+                            }
 
 
 
@@ -271,7 +279,7 @@ namespace pwsg_2
                     if (selectedBlock != null)
                     {
                         selectedBlock.drawPen.DashPattern = new float[] { 2.0F, 2.0F };
-                        if (selectedBlock.editable)                         
+                        if (selectedBlock.text != "НАЧАЛО")
                             textBox1.Enabled = true;
                         textBox1.Text = selectedBlock.text;
                     }
@@ -290,6 +298,7 @@ namespace pwsg_2
                 operationBlockButton.Visible = true;
                 decisionBlockButton.Visible = true;
                 CycleBlockButton.Visible = true;
+                stopBlockButton.Visible = true;
             }
             else
             {
@@ -297,6 +306,7 @@ namespace pwsg_2
                 operationBlockButton.Visible = false;
                 decisionBlockButton.Visible = false;
                 CycleBlockButton.Visible = false;
+                stopBlockButton.Visible = false;
             }
         }
         private void decisionBlockButton_Click(object sender, EventArgs e)
@@ -751,7 +761,28 @@ namespace pwsg_2
 
         }
 
-        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            OpenFileDialog fileDialog = new OpenFileDialog();
+            fileDialog.Filter = "Diagram files (*.diag)|*.diag";
+            if (fileDialog.ShowDialog() == DialogResult.OK)
+            {
+                blocks = null;
+
+                //Open the file written above and read values from it.
+                Stream file = File.Open(fileDialog.FileName, FileMode.Open);
+                BinaryFormatter bformatter = new BinaryFormatter();
+
+                blocks = (List<Block>)bformatter.Deserialize(file);
+                file.Close();
+                foreach (Block b in blocks)
+                    b.SetGraphics(pictureBox1, flagGraphics);
+                ReprintPicture();
+
+            }
+        } 
+
+            private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
             if(moving)
             {

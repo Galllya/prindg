@@ -17,7 +17,6 @@ namespace pwsg_2
         protected Font drawFont;
         protected SolidBrush drawBrush;
         protected StringFormat drawFormat;
-        public bool editable { get; protected set; }
         public Graphics flagGraphics { get; protected set; }
         public Pen drawPen;     
         public PictureBox picture { get; protected set; }
@@ -46,7 +45,6 @@ namespace pwsg_2
             drawPen = new Pen(Color.Black, 2);
             flagGraphics = g;
             picture = p;
-            editable = true;
         }
         public void SetGraphics(PictureBox p,Graphics g) { picture = p; flagGraphics = g; }
         public void SetCoordinates(int x, int y) { this.x = x; this.y = y; }
@@ -74,7 +72,6 @@ namespace pwsg_2
             info.AddValue("x", x);
             info.AddValue("y", y);
             info.AddValue("text", text);
-            info.AddValue("text", text);
 
             info.AddValue("height", height);
             info.AddValue("weidth", weidth);
@@ -90,7 +87,6 @@ namespace pwsg_2
             weidth = (int)info.GetValue("weidth", typeof(int));
 
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));        
         }
     }
     [Serializable]
@@ -142,7 +138,6 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));
         }
     }
     [Serializable]
@@ -192,7 +187,7 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));
+            
         }
     }
 
@@ -243,7 +238,6 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));
         }
     }
 
@@ -294,7 +288,6 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));
         }
     }
 
@@ -345,7 +338,6 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));
         }
     }
 
@@ -396,7 +388,6 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));
         }
     }
 
@@ -448,7 +439,6 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));
         }
     }
 
@@ -499,7 +489,6 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));
         }
     }
 
@@ -550,7 +539,6 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));
         }
     }
     [Serializable]
@@ -600,7 +588,6 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));   
         }
     }
     [Serializable]
@@ -651,7 +638,6 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));         
         }
     }
     [Serializable]
@@ -703,7 +689,6 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));
         }
     }
     [Serializable]
@@ -713,12 +698,10 @@ namespace pwsg_2
         public StartBlock():base()
         {
             drawPen = new Pen(Color.Black, 2);
-            editable = false;
         }
         public StartBlock(PictureBox p, Graphics g) : base(p, g)
         {
             drawPen = new Pen(Color.Black, 2);
-            editable = false;
         }
         public override void BaseText()
         {
@@ -763,7 +746,6 @@ namespace pwsg_2
             info.AddValue("x", x);
             info.AddValue("y", y);
             info.AddValue("text", text);
-            info.AddValue("editable", editable);
             info.AddValue("exists", exists);
     
 
@@ -773,7 +755,6 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));
             exists = (bool)info.GetValue("exists", typeof(bool));
 
         }
@@ -785,7 +766,6 @@ namespace pwsg_2
             public StopBlock(PictureBox p, Graphics g) : base(p, g)
             {
                 drawPen = new Pen(Color.Black, 2);
-                editable = false;
             }
             public override void BaseText()
             {
@@ -823,7 +803,6 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            editable = (bool)info.GetValue("editable", typeof(bool));
         }
     }
 }
