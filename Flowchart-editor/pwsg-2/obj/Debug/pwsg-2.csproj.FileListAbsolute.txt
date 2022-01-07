@@ -1,0 +1,180 @@
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\bin\Debug\pwsg-2.exe.config
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\bin\Debug\pwsg-2.exe
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\bin\Debug\pwsg-2.pdb
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\pwsg_2.Form1.resources
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\pwsg_2.Properties.Resources.resources
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\pwsg-2.csproj.GenerateResource.cache
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\pwsg-2.csproj.CoreCompileInputs.cache
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\pwsg-2.exe
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\pwsg-2.pdb
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\pwsg-2.csprojAssemblyReference.cache
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\pwsg_2.Form2.resources
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\bin\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\pwsg_2.Form1.en-GB.resources
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\bin\Debug\pl\pwsg-2.resources.dll
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\pwsg_2.Form1.pl.resources
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\pl\pwsg-2.resources.dll
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\pwsg_2.Form2.en-GB.resources
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\pwsg_2.Form3.resources
+C:\Users\Krzychu\source\repos\pwsg-2\pwsg-2\obj\Debug\pwsg_2.Form3.en-GB.resources
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.exe.config
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.exe
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.pdb
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\bin\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\bin\Debug\pl\pwsg-2.resources.dll
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.resources
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form2.resources
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form3.resources
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Properties.Resources.resources
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.en-GB.resources
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.pl.resources
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form2.en-GB.resources
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form3.en-GB.resources
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.GenerateResource.cache
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pl\pwsg-2.resources.dll
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.exe
+C:\Users\User\Downloads\Block-diagram-editor-main (2)\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.pdb
+D:\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.exe.config
+D:\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.exe
+D:\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.pdb
+D:\Block-diagram-editor-main\pwsg-2\bin\Debug\en-GB\pwsg-2.resources.dll
+D:\Block-diagram-editor-main\pwsg-2\bin\Debug\pl\pwsg-2.resources.dll
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.AssemblyReference.cache
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.SuggestedBindingRedirects.cache
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.resources
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form2.resources
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form3.resources
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Properties.Resources.resources
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.en-GB.resources
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.pl.resources
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form2.en-GB.resources
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form3.en-GB.resources
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.GenerateResource.cache
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.CoreCompileInputs.cache
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\en-GB\pwsg-2.resources.dll
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pl\pwsg-2.resources.dll
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.exe
+D:\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.pdb
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.exe.config
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.exe
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.pdb
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\bin\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\bin\Debug\pl\pwsg-2.resources.dll
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csprojAssemblyReference.cache
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.resources
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form2.resources
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form3.resources
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Properties.Resources.resources
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.en-GB.resources
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.pl.resources
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form2.en-GB.resources
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form3.en-GB.resources
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.GenerateResource.cache
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.CoreCompileInputs.cache
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pl\pwsg-2.resources.dll
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.exe
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.pdb
+C:\Users\bolga\Source\Repos\Flowchart_Project\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form4.resources
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.exe.config
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.exe
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.pdb
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\bin\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\bin\Debug\pl\pwsg-2.resources.dll
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.resources
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form2.resources
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form3.resources
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form4.resources
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Properties.Resources.resources
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.en-GB.resources
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.pl.resources
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form2.en-GB.resources
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form3.en-GB.resources
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.GenerateResource.cache
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pl\pwsg-2.resources.dll
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.exe
+C:\Users\User\Downloads\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.pdb
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.exe.config
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.exe
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.pdb
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\bin\Debug\en-GB\pwsg-2.resources.dll
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\bin\Debug\pl\pwsg-2.resources.dll
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.AssemblyReference.cache
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.SuggestedBindingRedirects.cache
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.resources
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form2.resources
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form3.resources
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form4.resources
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Properties.Resources.resources
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.en-GB.resources
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.pl.resources
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form2.en-GB.resources
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form3.en-GB.resources
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.GenerateResource.cache
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.CoreCompileInputs.cache
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\en-GB\pwsg-2.resources.dll
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pl\pwsg-2.resources.dll
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.exe
+D:\Flowchart_Project-test (1)\Flowchart_Project-test\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.pdb
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.exe.config
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.exe
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.pdb
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\bin\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\bin\Debug\pl\pwsg-2.resources.dll
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.resources
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form4.resources
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Properties.Resources.resources
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.en-GB.resources
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.pl.resources
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.GenerateResource.cache
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pl\pwsg-2.resources.dll
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.exe
+C:\Users\User\Downloads\Flowchart_Project-master (2)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.pdb
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.exe.config
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.exe
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\bin\Debug\pwsg-2.pdb
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\bin\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\bin\Debug\pl\pwsg-2.resources.dll
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.resources
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form4.resources
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Properties.Resources.resources
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.en-GB.resources
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg_2.Form1.pl.resources
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.GenerateResource.cache
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pl\pwsg-2.resources.dll
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.exe
+C:\Users\User\Downloads\Flowchart_Project-master (3)\Flowchart_Project-master\Block-diagram-editor-main\pwsg-2\obj\Debug\pwsg-2.pdb
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\bin\Debug\pwsg-2.exe.config
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\bin\Debug\pwsg-2.exe
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\bin\Debug\pwsg-2.pdb
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\bin\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\bin\Debug\pl\pwsg-2.resources.dll
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.csprojAssemblyReference.cache
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form1.resources
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form4.resources
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Properties.Resources.resources
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form1.en-GB.resources
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form1.pl.resources
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.csproj.GenerateResource.cache
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.csproj.CoreCompileInputs.cache
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\pl\pwsg-2.resources.dll
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.exe
+C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.pdb
