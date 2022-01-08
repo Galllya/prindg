@@ -123,7 +123,7 @@ namespace pwsg_2
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            CreateClearBitmap(2000, 2000);
+            CreateClearBitmap(550, 2000);
             trash_mode = false;
             currentBlock = new StartBlock();
             currentBlock.SetGraphics(pictureBox1, flagGraphics);
@@ -670,17 +670,13 @@ namespace pwsg_2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SaveFileDialog fileDialog = new SaveFileDialog();
-            fileDialog.Filter = "Diagram files (*.diag)|*.diag";
-            if (fileDialog.ShowDialog() == DialogResult.OK)
-            {
-                Stream file = fileDialog.OpenFile();
 
-                BinaryFormatter bformatter = new BinaryFormatter();
+            Form2 newForm = new Form2();
+            newForm.blocks = blocks;
+            newForm.pictureBox1 = pictureBox1;
+            newForm.Show();
 
-                bformatter.Serialize(file, blocks);
-                file.Close();
-            }
+
 
         }
 

@@ -195,3 +195,4 @@ C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\en-GB\pwsg-
 C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pl\pwsg-2.resources.dll
 C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.exe
 C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.pdb
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form2.resources

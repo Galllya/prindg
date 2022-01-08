@@ -11,7 +11,7 @@ using System.Runtime.Serialization;
 namespace pwsg_2
 {
     [Serializable]
-    abstract class Block : ISerializable
+   public abstract class Block : ISerializable
     {
         public string text;
         public string type;
