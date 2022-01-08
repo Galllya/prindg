@@ -14,6 +14,7 @@ namespace pwsg_2
     abstract class Block : ISerializable
     {
         public string text;
+        public string type;
         protected Font drawFont;
         protected SolidBrush drawBrush;
         protected StringFormat drawFormat;
@@ -72,6 +73,8 @@ namespace pwsg_2
             info.AddValue("x", x);
             info.AddValue("y", y);
             info.AddValue("text", text);
+            info.AddValue("type", type);
+
 
             info.AddValue("height", height);
             info.AddValue("weidth", weidth);
@@ -85,6 +88,8 @@ namespace pwsg_2
             y = (int)info.GetValue("y", typeof(int));
             height = (int)info.GetValue("height", typeof(int));
             weidth = (int)info.GetValue("weidth", typeof(int));
+
+            type = (string)info.GetValue("type", typeof(string));
 
             text = (string)info.GetValue("text", typeof(string));
         }
@@ -104,6 +109,7 @@ namespace pwsg_2
             flagGraphics.FillRectangle(Brushes.White, displayRectangle);
             flagGraphics.DrawRectangle(drawPen, displayRectangle);
             flagGraphics.DrawString(text, drawFont, drawBrush, displayRectangle, drawFormat);
+
             PrintPoints();
 
             
@@ -116,6 +122,7 @@ namespace pwsg_2
         public override void BaseText()
         {
             text = "ДЕЙСТВИЕ";
+            type = "ДЕЙСТВИЕ";
             height = 50;
             weidth = 100;
         }
@@ -138,6 +145,8 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
+            //type = (string)info.GetValue("type", typeof(string));
+
         }
     }
     [Serializable]
@@ -165,6 +174,7 @@ namespace pwsg_2
         public override void BaseText()
         {
             text = "СТРЕЛКА";
+            type = "СТРЕЛКА";
             height = 53;
             weidth = 3;
         }
@@ -187,7 +197,9 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-            
+           // type = (string)info.GetValue("type", typeof(string));
+
+
         }
     }
 
@@ -216,6 +228,7 @@ namespace pwsg_2
         public override void BaseText()
         {
             text = "ДЛИННАЯ_ВЕРТИКАЛЬНАЯ_СТРЕКЛКА";
+            type = "ДЛИННАЯ_ВЕРТИКАЛЬНАЯ_СТРЕКЛКА";
             height = 53;
             weidth = 3;
         }
@@ -238,6 +251,8 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
+            //type = (string)info.GetValue("type", typeof(string));
+
         }
     }
 
@@ -266,6 +281,8 @@ namespace pwsg_2
         public override void BaseText()
         {
             text = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
+            type = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
+
             height = 3;
             weidth = 53;
         }
@@ -288,6 +305,8 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
+           // type = (string)info.GetValue("type", typeof(string));
+
         }
     }
 
@@ -316,6 +335,8 @@ namespace pwsg_2
         public override void BaseText()
         {
             text = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
+            type = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
+
             height = 3;
             weidth = 53;
         }
@@ -337,6 +358,8 @@ namespace pwsg_2
         {
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
+           // type = (string)info.GetValue("type", typeof(string));
+
             text = (string)info.GetValue("text", typeof(string));
         }
     }
@@ -366,6 +389,8 @@ namespace pwsg_2
         public override void BaseText()
         {
             text = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
+            type = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
+
             height = 3;
             weidth = 53;
         }
@@ -388,6 +413,8 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
+          //  type = (string)info.GetValue("type", typeof(string));
+
         }
     }
 
@@ -417,6 +444,8 @@ namespace pwsg_2
         public override void BaseText()
         {
             text = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
+            type = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
+
             height = 3;
             weidth = 53;
         }
@@ -439,6 +468,8 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
+          //  type = (string)info.GetValue("type", typeof(string));
+
         }
     }
 
@@ -551,6 +582,8 @@ namespace pwsg_2
         public override void BaseText()
         {
             text = "ЛОГИЧЕСКОЕ УСЛОВИЕ";
+            type = "ЛОГИЧЕСКОЕ УСЛОВИЕ";
+
             height = 46;
             weidth = 80;
         }
@@ -588,6 +621,8 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
+          //  type = (string)info.GetValue("type", typeof(string));
+
         }
     }
     [Serializable]
@@ -667,6 +702,8 @@ namespace pwsg_2
         public override void BaseText()
         {
             text = "ЦИКЛ";
+            type = "ЦИКЛ";
+
             height = 50;
             weidth = 100;
         }
@@ -689,6 +726,8 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
+          //  type = (string)info.GetValue("type", typeof(string));
+
         }
     }
     [Serializable]
@@ -707,6 +746,8 @@ namespace pwsg_2
         {
 
             text = "НАЧАЛО";
+            type = "НАЧАЛО";
+
         }
         public override void Print(bool refresh = true)
         {
@@ -746,6 +787,8 @@ namespace pwsg_2
             info.AddValue("x", x);
             info.AddValue("y", y);
             info.AddValue("text", text);
+            info.AddValue("type", type);
+
             info.AddValue("exists", exists);
     
 
@@ -755,6 +798,8 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
+            //type = (string)info.GetValue("type", typeof(string));
+
             exists = (bool)info.GetValue("exists", typeof(bool));
 
         }
@@ -771,8 +816,10 @@ namespace pwsg_2
             {
 
                 text = "КОНЕЦ";
-            }
-            public override void Print(bool refresh = true)
+            type = "КОНЕЦ";
+
+        }
+        public override void Print(bool refresh = true)
             {
                 Rectangle displayRectangle = new Rectangle(new Point(x - 24, y - 18), new Size(48, 36));
                 flagGraphics.FillEllipse(Brushes.White, new Rectangle(x - 40, y - 25, 80, 50));
@@ -803,6 +850,8 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
+          //  type = (string)info.GetValue("type", typeof(string));
+
         }
     }
 }

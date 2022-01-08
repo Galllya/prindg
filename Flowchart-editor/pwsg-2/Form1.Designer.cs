@@ -40,10 +40,10 @@
             this.InputBlockButton = new System.Windows.Forms.Button();
             this.stopBlockButton = new System.Windows.Forms.Button();
             this.decisionBlockButton = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -70,6 +70,7 @@
             this.tableLayoutPanel6.Controls.Add(this.InputBlockButton, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.stopBlockButton, 0, 4);
             this.tableLayoutPanel6.Controls.Add(this.decisionBlockButton, 0, 2);
+            this.tableLayoutPanel6.Controls.Add(this.button3, 0, 9);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             // 
             // CycleBlockButton
@@ -86,7 +87,6 @@
             resources.ApplyResources(this.label1, "label1");
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Name = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // operationBlockButton
             // 
@@ -147,10 +147,17 @@
             this.decisionBlockButton.UseVisualStyleBackColor = false;
             this.decisionBlockButton.Click += new System.EventHandler(this.decisionBlockButton_Click);
             // 
+            // button3
+            // 
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_2);
+            // 
             // panel1
             // 
             resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Name = "panel1";
@@ -167,16 +174,8 @@
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
             this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
-            // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Form1
             // 
@@ -213,7 +212,7 @@
         private System.Windows.Forms.Button CycleBlockButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
     }
 }
 
