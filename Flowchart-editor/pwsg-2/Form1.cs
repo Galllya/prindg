@@ -737,6 +737,17 @@ namespace pwsg_2
             }
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form4 newForm = new Form4();
+            newForm.Show();
+        }
+
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
             if(moving)
