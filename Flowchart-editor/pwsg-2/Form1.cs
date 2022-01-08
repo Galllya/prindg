@@ -130,7 +130,7 @@ namespace pwsg_2
             Block blok = currentBlock.CloneNew();
             if (blok != null)
             {
-                blok.SetCoordinates(300, 50);
+                blok.SetCoordinates(250, 25);
                 blok.Print();
                 blocks.Add(blok);
             }
@@ -139,7 +139,7 @@ namespace pwsg_2
             Block blok1 = currentBlock.CloneNew();
             if (blok1 != null)
             {
-                blok1.SetCoordinates(348, 100);
+                blok1.SetCoordinates(298, 75);
                 blok1.Print();
                 blocks.Add(blok1);
             }
@@ -204,11 +204,11 @@ namespace pwsg_2
                             }
                             //тут перерисовываем все фигуры, которые были снизу
                             if (select_blok.type == "ЛОГИЧЕСКОЕ УСЛОВИЕ")
-                                ReprintButtonFigures(150, false);
+                                ReprintButtonFigures(180, false);
                             else
                             {
                                 if (select_blok.type == "ЦИКЛ")
-                                    ReprintButtonFigures(330, false);
+                                    ReprintButtonFigures(386, false);
                                  else
                                 ReprintButtonFigures(98, false);
                             }
@@ -230,7 +230,17 @@ namespace pwsg_2
                             {
                                 label1.Text = "Выберите ФИГУРУ которая вам необходима";
                                 //в качестве последней высоты используем высоту выбранной стрелки
-                                last_height = nearBlok.y + 50;
+                                int indexOfArrow = blocks.IndexOf(nearBlok);
+                               Block prevBloc =  blocks.ElementAt(indexOfArrow - 1);
+                                if (prevBloc.type == "ВВОД/ВЫВОД")
+                                {
+                                    last_height = nearBlok.y + 52;
+
+                                }
+                                else
+                                {
+                                    last_height = nearBlok.y + 52;
+                                }
                                 last_weidth = nearBlok.x-50;
 
                                 select_arrow_index = blocks.IndexOf(nearBlok);
@@ -286,7 +296,7 @@ namespace pwsg_2
             ReprintButtonFigures(180, true);
             PrintBlock(new DecisionBlock());
 
-            int height_for_arrow = last_height + 49;
+            int height_for_arrow = last_height + 50;
 
            
             currentBlock = new HorizantalArrow();
@@ -389,7 +399,7 @@ namespace pwsg_2
 
         private void operationBlockButton_Click(object sender, EventArgs e)
         {
-            ReprintButtonFigures(98, true);
+            ReprintButtonFigures(100, true);
 
             PrintBlock(new OperationBlock());
 
@@ -456,7 +466,7 @@ namespace pwsg_2
 
 
             //задаем высоту для прорисовки стрелки
-            int height_for_arrow = last_height + 45;
+            int height_for_arrow = last_height + 50;
 
             DrawArrow(height_for_arrow);
 
@@ -483,7 +493,7 @@ namespace pwsg_2
         }
         private void CycleBlockButton_Click(object sender, EventArgs e)
         {
-            ReprintButtonFigures(380, true);
+            ReprintButtonFigures(388, true);
 
             trash_mode = false;
             CycleBlockButton.BackColor = Color.FromArgb(192, 192, 255);
@@ -493,7 +503,7 @@ namespace pwsg_2
             Block blok = currentBlock.CloneNew();
             if (blok != null)
             {
-                blok.SetCoordinates(300, last_height);
+                blok.SetCoordinates(last_weidth, last_height);
                 blok.Print();
                 blocks.Add(blok);
             }
@@ -506,7 +516,7 @@ namespace pwsg_2
             Block blok2 = currentBlock.CloneNew();
             if (blok2 != null)
             {
-                blok2.SetCoordinates(last_weidth+48, height_for_arrow-5);
+                blok2.SetCoordinates(last_weidth+48, height_for_arrow);
                 blok2.Print();
                 blocks.Insert(select_arrow_index + 2, blok2);
 
@@ -554,31 +564,31 @@ namespace pwsg_2
             Block blok6 = currentBlock.CloneNew();
             if (blok6 != null)
             {
-                blok6.SetCoordinates(last_weidth - 74, height_for_arrow +8);
+                blok6.SetCoordinates(last_weidth - 74, height_for_arrow +1);
                 blok6.Print();
                 blocks.Insert(select_arrow_index + 6, blok6);
 
 
             }
 
-            currentBlock = new HorizantalArrow();
+            currentBlock = new HorizantalArrowForCycle();
             currentBlock.SetGraphics(pictureBox1, flagGraphics);
             Block blok7 = currentBlock.CloneNew();
             if (blok7 != null)
             {
-                blok7.SetCoordinates(last_weidth - 74, height_for_arrow + 8);
+                blok7.SetCoordinates(last_weidth - 74, height_for_arrow + 1);
                 blok7.Print();
                 blocks.Insert(select_arrow_index + 7, blok7);
 
 
             }
 
-            currentBlock = new HorizantalArrow();
+            currentBlock = new HorizantalArrowForCycle();
             currentBlock.SetGraphics(pictureBox1, flagGraphics);
             Block blok8 = currentBlock.CloneNew();
             if (blok8 != null)
             {
-                blok8.SetCoordinates(last_weidth + 74, height_for_arrow + 8);
+                blok8.SetCoordinates(last_weidth + 83, height_for_arrow + 1);
                 blok8.Print();
                 blocks.Insert(select_arrow_index + 8, blok8);
 
@@ -590,7 +600,7 @@ namespace pwsg_2
             Block blok9 = currentBlock.CloneNew();
             if (blok9 != null)
             {
-                blok9.SetCoordinates(last_weidth + 128, height_for_arrow + 8);
+                blok9.SetCoordinates(last_weidth + 127, height_for_arrow + 1);
                 blok9.Print();
                 blocks.Insert(select_arrow_index + 9, blok9);
 

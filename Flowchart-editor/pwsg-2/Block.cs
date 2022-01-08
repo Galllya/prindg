@@ -157,13 +157,16 @@ namespace pwsg_2
         {}
         public override void Print(bool refresh = true)
         {
- 
-            Rectangle displayRectangle = new Rectangle(new Point(x - 50, y - 25), new Size(3, 53));
-            flagGraphics.FillRectangle(Brushes.Black, displayRectangle);
-            flagGraphics.DrawRectangle(drawPen, displayRectangle);
+
+       
+
+         
+            Point[] arrow = new Point[7] { new Point(x - 50, y - 25), new Point(x - 50 + 8, y - 25), new Point(x - 50 + 8, y - 25 + 40), new Point(x - 50 + 16, y - 25 + 40), new Point(x - 50 + 4, y - 25 + 50), new Point(x - 50 - 8, y - 25 + 40), new Point(x - 50, y - 25 + 40) };
+            Rectangle displayRectangle = new Rectangle(new Point(x - 50, y - 25), new Size(100, 70));
+            flagGraphics.FillPolygon(Brushes.Black, arrow);
+            flagGraphics.DrawPolygon(drawPen, arrow);
             flagGraphics.DrawString(text, drawFont, drawBrush, displayRectangle, drawFormat);
             PrintPoints();
-
 
             if (refresh)
             {
@@ -173,7 +176,6 @@ namespace pwsg_2
         }
         public override void BaseText()
         {
-            text = "СТРЕЛКА";
             type = "СТРЕЛКА";
             height = 53;
             weidth = 3;
@@ -186,10 +188,10 @@ namespace pwsg_2
         }
         public override bool IsInside(int x, int y)
         {
-            if (x >= this.x + 50) return false;
-            if (x <= this.x - 50) return false;
-            if (y >= this.y + 20) return false;
-            if (y <= this.y - 20) return false;
+            if (x >= this.x + 20-50) return false;
+            if (x <= this.x - 20-50) return false;
+            if (y >= this.y + 70-25) return false;
+            if (y <= this.y - 70 -25) return false;
             return true;
         }
         public Arrow(SerializationInfo info, StreamingContext ctxt)
@@ -311,6 +313,60 @@ namespace pwsg_2
     }
 
     [Serializable]
+    class HorizantalArrowForCycle : Block, ISerializable
+    {
+        public HorizantalArrowForCycle() : base() { }
+        public HorizantalArrowForCycle(PictureBox p, Graphics g) : base(p, g)
+        { }
+        public override void Print(bool refresh = true)
+        {
+
+            Rectangle displayRectangle = new Rectangle(new Point(x - 25, y - 50), new Size(42, 3));
+            flagGraphics.FillRectangle(Brushes.Black, displayRectangle);
+            flagGraphics.DrawRectangle(drawPen, displayRectangle);
+            flagGraphics.DrawString(text, drawFont, drawBrush, displayRectangle, drawFormat);
+            PrintPoints();
+
+
+            if (refresh)
+            {
+                flagGraphics.DrawImage(picture.Image, 0, 0);
+                picture.Refresh();
+            }
+        }
+        public override void BaseText()
+        {
+            text = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
+            type = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
+
+            height = 3;
+            weidth = 53;
+        }
+        public override Block CloneNew()
+        {
+            HorizantalArrowForCycle other = new HorizantalArrowForCycle(this.picture, this.flagGraphics);
+            other.BaseText();
+            return other;
+        }
+        public override bool IsInside(int x, int y)
+        {
+            if (x >= this.x + 50) return false;
+            if (x <= this.x - 50) return false;
+            if (y >= this.y + 20) return false;
+            if (y <= this.y - 20) return false;
+            return true;
+        }
+        public HorizantalArrowForCycle(SerializationInfo info, StreamingContext ctxt)
+        {
+            x = (int)info.GetValue("x", typeof(int));
+            y = (int)info.GetValue("y", typeof(int));
+            text = (string)info.GetValue("text", typeof(string));
+            // type = (string)info.GetValue("type", typeof(string));
+
+        }
+    }
+
+    [Serializable]
     class MiddleHorizantalArrow : Block, ISerializable
     {
         public MiddleHorizantalArrow() : base() { }
@@ -373,7 +429,7 @@ namespace pwsg_2
         public override void Print(bool refresh = true)
         {
 
-            Rectangle displayRectangle = new Rectangle(new Point(x - 25, y - 50), new Size(103, 3));
+            Rectangle displayRectangle = new Rectangle(new Point(x - 25, y - 50), new Size(102, 3));
             flagGraphics.FillRectangle(Brushes.Black, displayRectangle);
             flagGraphics.DrawRectangle(drawPen, displayRectangle);
             flagGraphics.DrawString(text, drawFont, drawBrush, displayRectangle, drawFormat);
@@ -428,7 +484,7 @@ namespace pwsg_2
         public override void Print(bool refresh = true)
         {
 
-            Rectangle displayRectangle = new Rectangle(new Point(x - 25, y - 50), new Size(3, 220));
+            Rectangle displayRectangle = new Rectangle(new Point(x - 25, y - 50), new Size(3, 222));
             flagGraphics.FillRectangle(Brushes.Black, displayRectangle);
             flagGraphics.DrawRectangle(drawPen, displayRectangle);
             flagGraphics.DrawString(text, drawFont, drawBrush, displayRectangle, drawFormat);
@@ -482,7 +538,7 @@ namespace pwsg_2
         public override void Print(bool refresh = true)
         {
 
-            Rectangle displayRectangle = new Rectangle(new Point(x - 25, y - 50), new Size(3, 300));
+            Rectangle displayRectangle = new Rectangle(new Point(x - 25, y - 50), new Size(3, 307));
             flagGraphics.FillRectangle(Brushes.Black, displayRectangle);
             flagGraphics.DrawRectangle(drawPen, displayRectangle);
             flagGraphics.DrawString(text, drawFont, drawBrush, displayRectangle, drawFormat);
@@ -589,7 +645,7 @@ namespace pwsg_2
         }
         public override void Print(bool refresh = true)
         {
-            Point []rhomb= new Point[4] { new Point(x - 100, y), new Point(x, y - 50), new Point(x + 100, y), new Point(x, y + 50) };
+            Point []rhomb= new Point[4] { new Point(x - 100, y), new Point(x, y - 25), new Point(x + 100, y), new Point(x, y + 25) };
             Rectangle displayRectangle = new Rectangle(new Point(x - 40, y - 18), new Size(80,46));
             flagGraphics.FillPolygon(Brushes.White, rhomb);
             flagGraphics.DrawPolygon(drawPen,rhomb);
@@ -634,7 +690,7 @@ namespace pwsg_2
         }
         public override void Print(bool refresh = true)
         {
-            Point[] oblique = new Point[4] { new Point(x - 50, y + 20), new Point(x - 35, y - 20), new Point(x + 50, y - 20), new Point(x + 35, y + 20) };
+            Point[] oblique = new Point[4] { new Point(x - 50, y + 25), new Point(x - 35, y - 25), new Point(x + 50, y - 25), new Point(x + 35, y + 25) };
             Rectangle displayRectangle = new Rectangle(new Point(x - 50, y - 25), new Size(100, 50));
             flagGraphics.FillPolygon(Brushes.White, oblique);
             flagGraphics.DrawPolygon(drawPen, oblique);
@@ -684,8 +740,8 @@ namespace pwsg_2
         }
         public override void Print(bool refresh = true)
         {
-            Point[] hexagon = new Point[6] { new Point(x - 60, y), new Point(x - 40, y - 20), new Point(x + 40, y - 20), new Point(x + 60, y),
-                                                                                                        new Point(x + 40, y + 20), new Point(x - 40, y + 20)};
+            Point[] hexagon = new Point[6] { new Point(x - 60, y), new Point(x - 40, y - 25), new Point(x + 40, y - 25), new Point(x + 60, y),
+                                                                                                        new Point(x + 40, y + 25), new Point(x - 40, y + 25)};
             Rectangle displayRectangle = new Rectangle(new Point(x - 50, y - 25), new Size(100, 50));
             flagGraphics.FillPolygon(Brushes.White, hexagon);
             flagGraphics.DrawPolygon(drawPen, hexagon);
