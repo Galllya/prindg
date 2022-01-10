@@ -25,7 +25,12 @@ namespace pwsg_2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            pictureBox1.Image.Save(@"C:\Users\bolga\Documents\file.png", System.Drawing.Imaging.ImageFormat.Png);
+            SaveFileDialog fileDialog = new SaveFileDialog();
+            fileDialog.Filter = "PNG|*.png";
+            if (fileDialog.ShowDialog() == DialogResult.OK)
+            {
+                pictureBox1.Image.Save(fileDialog.FileName, System.Drawing.Imaging.ImageFormat.Png);
+            }
             this.Close();
         }
 

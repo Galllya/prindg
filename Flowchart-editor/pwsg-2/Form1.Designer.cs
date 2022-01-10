@@ -31,18 +31,18 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.CycleBlockButton = new System.Windows.Forms.Button();
             this.operationBlockButton = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.trashButton = new System.Windows.Forms.Button();
             this.InputBlockButton = new System.Windows.Forms.Button();
             this.stopBlockButton = new System.Windows.Forms.Button();
             this.decisionBlockButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
@@ -74,33 +74,6 @@
             this.tableLayoutPanel6.Controls.Add(this.button3, 0, 8);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Name = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // textBox1
-            // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // button1
-            // 
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // panel1
-            // 
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Name = "panel1";
-            // 
             // CycleBlockButton
             // 
             this.CycleBlockButton.BackColor = System.Drawing.SystemColors.Control;
@@ -126,6 +99,12 @@
             this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // trashButton
             // 
@@ -163,6 +142,21 @@
             this.decisionBlockButton.UseVisualStyleBackColor = false;
             this.decisionBlockButton.Click += new System.EventHandler(this.decisionBlockButton_Click);
             // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Name = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // button3
             // 
             this.button3.BackgroundImage = global::pwsg_2.Properties.Resources.OTKRYT;
@@ -171,6 +165,13 @@
             this.button3.Name = "button3";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_2);
+            // 
+            // panel1
+            // 
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Name = "panel1";
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // pictureBox1
             // 

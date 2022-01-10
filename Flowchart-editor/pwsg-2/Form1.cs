@@ -744,6 +744,11 @@ namespace pwsg_2
             newForm.Show();
         }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
             if(moving)
