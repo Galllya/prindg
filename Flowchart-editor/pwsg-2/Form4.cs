@@ -28,13 +28,10 @@ namespace pwsg_2
         {
 
         }
-<<<<<<< HEAD
 
         private void Form4_Load(object sender, EventArgs e)
         {
 
         }
-=======
->>>>>>> 344cc5a78dcb1dd6321bcfa0646384ac8539c833
     }
 }

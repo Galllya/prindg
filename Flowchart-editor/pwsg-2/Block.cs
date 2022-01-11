@@ -229,10 +229,6 @@ namespace pwsg_2
         }
         public override void BaseText()
         {
-<<<<<<< HEAD
-=======
-            text = "ДЛИННАЯ_ВЕРТИКАЛЬНАЯ_СТРЕКЛКА";
->>>>>>> 344cc5a78dcb1dd6321bcfa0646384ac8539c833
             type = "ДЛИННАЯ_ВЕРТИКАЛЬНАЯ_СТРЕКЛКА";
             height = 53;
             weidth = 3;
@@ -285,10 +281,6 @@ namespace pwsg_2
         }
         public override void BaseText()
         {
-<<<<<<< HEAD
-=======
-            text = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
->>>>>>> 344cc5a78dcb1dd6321bcfa0646384ac8539c833
             type = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
 
             height = 3;
@@ -342,10 +334,6 @@ namespace pwsg_2
         }
         public override void BaseText()
         {
-<<<<<<< HEAD
-=======
-            text = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
->>>>>>> 344cc5a78dcb1dd6321bcfa0646384ac8539c833
             type = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
 
             height = 3;
@@ -399,10 +387,6 @@ namespace pwsg_2
         }
         public override void BaseText()
         {
-<<<<<<< HEAD
-=======
-            text = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
->>>>>>> 344cc5a78dcb1dd6321bcfa0646384ac8539c833
             type = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
 
             height = 3;
@@ -456,10 +440,6 @@ namespace pwsg_2
         }
         public override void BaseText()
         {
-<<<<<<< HEAD
-=======
-            text = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
->>>>>>> 344cc5a78dcb1dd6321bcfa0646384ac8539c833
             type = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
 
             height = 3;
@@ -514,10 +494,6 @@ namespace pwsg_2
         }
         public override void BaseText()
         {
-<<<<<<< HEAD
-=======
-            text = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
->>>>>>> 344cc5a78dcb1dd6321bcfa0646384ac8539c833
             type = "ГОРИЗОНТАЛЬНАЯ_СТРЕЛКА";
 
             height = 3;
@@ -798,7 +774,6 @@ namespace pwsg_2
             x = (int)info.GetValue("x", typeof(int));
             y = (int)info.GetValue("y", typeof(int));
             text = (string)info.GetValue("text", typeof(string));
-          //  type = (string)info.GetValue("type", typeof(string));
 
         }
     }
