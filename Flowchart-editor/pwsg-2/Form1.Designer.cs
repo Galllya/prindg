@@ -72,7 +72,10 @@
             this.tableLayoutPanel6.Controls.Add(this.button1, 0, 10);
             this.tableLayoutPanel6.Controls.Add(this.label1, 0, 9);
             this.tableLayoutPanel6.Controls.Add(this.button3, 0, 8);
+<<<<<<< HEAD
             this.tableLayoutPanel6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+=======
+>>>>>>> 344cc5a78dcb1dd6321bcfa0646384ac8539c833
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             // 
             // CycleBlockButton
@@ -156,9 +159,13 @@
             // button1
             // 
             resources.ApplyResources(this.button1, "button1");
+<<<<<<< HEAD
             this.button1.Cursor = System.Windows.Forms.Cursors.Help;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.ForeColor = System.Drawing.Color.Black;
+=======
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+>>>>>>> 344cc5a78dcb1dd6321bcfa0646384ac8539c833
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
@@ -174,9 +181,13 @@
             // 
             this.button3.BackgroundImage = global::pwsg_2.Properties.Resources.OTKRYT;
             resources.ApplyResources(this.button3, "button3");
+<<<<<<< HEAD
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.ForeColor = System.Drawing.Color.Black;
+=======
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+>>>>>>> 344cc5a78dcb1dd6321bcfa0646384ac8539c833
             this.button3.Name = "button3";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_2);
