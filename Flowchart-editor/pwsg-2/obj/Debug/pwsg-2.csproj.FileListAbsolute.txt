@@ -178,3 +178,57 @@ C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\
 C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\pl\pwsg-2.resources.dll
 C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.exe
 C:\Users\bolga\Source\Repos\Flowchart_Project\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.pdb
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\bin\Debug\pwsg-2.exe.config
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\bin\Debug\pwsg-2.exe
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\bin\Debug\pwsg-2.pdb
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\bin\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\bin\Debug\pl\pwsg-2.resources.dll
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.csprojAssemblyReference.cache
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form1.resources
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form4.resources
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Properties.Resources.resources
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form1.en-GB.resources
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form1.pl.resources
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.csproj.GenerateResource.cache
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.csproj.CoreCompileInputs.cache
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pl\pwsg-2.resources.dll
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.exe
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.pdb
+C:\Users\bolga\Source\Repos\prindg\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form2.resources
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\bin\Debug\pwsg-2.exe.config
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\bin\Debug\pwsg-2.exe
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\bin\Debug\pwsg-2.pdb
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\bin\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\bin\Debug\pl\pwsg-2.resources.dll
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.csprojAssemblyReference.cache
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form1.resources
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form2.resources
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form4.resources
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Properties.Resources.resources
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form1.en-GB.resources
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form1.pl.resources
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.csproj.GenerateResource.cache
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pl\pwsg-2.resources.dll
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.exe
+C:\Users\User\Downloads\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.pdb
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\bin\Debug\pwsg-2.exe.config
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\bin\Debug\pwsg-2.exe
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\bin\Debug\pwsg-2.pdb
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\bin\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\bin\Debug\pl\pwsg-2.resources.dll
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.csprojAssemblyReference.cache
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form1.resources
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form2.resources
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form4.resources
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Properties.Resources.resources
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form1.en-GB.resources
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg_2.Form1.pl.resources
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.csproj.GenerateResource.cache
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.csproj.CoreCompileInputs.cache
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\en-GB\pwsg-2.resources.dll
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pl\pwsg-2.resources.dll
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.exe
+C:\Users\bolga\OneDrive\Рабочий стол\prindg-main\prindg-main\Flowchart-editor\pwsg-2\obj\Debug\pwsg-2.pdb

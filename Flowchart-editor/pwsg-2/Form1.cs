@@ -92,8 +92,6 @@ namespace pwsg_2
     
         public void CreateClearBitmap(int width, int height)
         {
-
-
             pictureBox1.Image = new Bitmap(width, height);
             Graphics flagGraphics = Graphics.FromImage(pictureBox1.Image);
             this.flagGraphics = flagGraphics;
@@ -125,15 +123,14 @@ namespace pwsg_2
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-
-            CreateClearBitmap(2000, 2000);
+            CreateClearBitmap(550, 2000);
             trash_mode = false;
             currentBlock = new StartBlock();
             currentBlock.SetGraphics(pictureBox1, flagGraphics);
             Block blok = currentBlock.CloneNew();
             if (blok != null)
             {
-                blok.SetCoordinates(300, 50);
+                blok.SetCoordinates(250, 25);
                 blok.Print();
                 blocks.Add(blok);
             }
@@ -142,21 +139,9 @@ namespace pwsg_2
             Block blok1 = currentBlock.CloneNew();
             if (blok1 != null)
             {
-                blok1.SetCoordinates(348, 100);
+                blok1.SetCoordinates(298, 75);
                 blok1.Print();
                 blocks.Add(blok1);
-            }
-
-            stopBlockButton.BackColor = Color.FromArgb(192, 192, 255);
-            stopBlockButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(255 / 3, 192, 192, 255);
-            currentBlock = new StopBlock();
-            currentBlock.SetGraphics(pictureBox1, flagGraphics);
-            Block blok2 = currentBlock.CloneNew();
-            if (blok2 != null)
-            {
-                blok2.SetCoordinates(last_weidth, last_height);
-                blok2.Print();
-                blocks.Insert(select_arrow_index + 1, blok2);
             }
         }
 
@@ -187,22 +172,26 @@ namespace pwsg_2
                             Block next_arrow = blocks.Where(bloc => bloc.y > blok.y).First();
 
                             blok.Clear();
-                            blocks.Remove(blok);
-
-                        
-
-
-                            if (select_blok.text == "ЛОГИЧЕСКОЕ УСЛОВИЕ")
+                            blocks.Remove(blok);                   
+                            if (select_blok.type == "ЛОГИЧЕСКОЕ УСЛОВИЕ")
                             {
                                 foreach (Block b in blocks.Where(bloc => bloc.y > blok.y).Take(8).ToArray())
                                 {
 
                                     b.Clear();
                                     blocks.Remove(b);
+                                }
+                            }
+
+                            if (select_blok.type == "ЦИКЛ")
+                            {
+                                foreach (Block b in blocks.Where(bloc => bloc.y > blok.y).Take(10).ToArray())
+                                {
+
+                                    b.Clear();
+                                    blocks.Remove(b);
 
                                 }
-
-
                             }
                             else
                             {
@@ -212,16 +201,17 @@ namespace pwsg_2
                                     next_arrow.Clear();
                                     blocks.Remove(next_arrow);
                                 }
-
                             }
                             //тут перерисовываем все фигуры, которые были снизу
-                            if (select_blok.text == "ЛОГИЧЕСКОЕ УСЛОВИЕ")
-                                ReprintButtonFigures(150, false);
+                            if (select_blok.type == "ЛОГИЧЕСКОЕ УСЛОВИЕ")
+                                ReprintButtonFigures(180, false);
                             else
+                            {
+                                if (select_blok.type == "ЦИКЛ")
+                                    ReprintButtonFigures(386, false);
+                                 else
                                 ReprintButtonFigures(98, false);
-
-
-
+                            }
                             trash_mode = false;
                             if (blok == selectedBlock)
                                 selectedBlock = null;
@@ -236,28 +226,28 @@ namespace pwsg_2
                         if (nearBlok != null)
 
                         {
-                            if (nearBlok.text == "СТРЕЛКА")
+                            if (nearBlok.type == "СТРЕЛКА")
                             {
                                 label1.Text = "Выберите ФИГУРУ которая вам необходима";
                                 //в качестве последней высоты используем высоту выбранной стрелки
-                                last_height = nearBlok.y + 50;
+                                int indexOfArrow = blocks.IndexOf(nearBlok);
+                               Block prevBloc =  blocks.ElementAt(indexOfArrow - 1);
+                                if (prevBloc.type == "ВВОД/ВЫВОД")
+                                {
+                                    last_height = nearBlok.y + 52;
+
+                                }
+                                else
+                                {
+                                    last_height = nearBlok.y + 52;
+                                }
                                 last_weidth = nearBlok.x-50;
 
                                 select_arrow_index = blocks.IndexOf(nearBlok);
                                 changeVisible(true);
                             }
-
-
-                 
-
                         }
-
-                        
-
                     }
-
-
-
                 }
                 else if (e.Button == MouseButtons.Right)
                 {
@@ -271,7 +261,7 @@ namespace pwsg_2
                     if (selectedBlock != null)
                     {
                         selectedBlock.drawPen.DashPattern = new float[] { 2.0F, 2.0F };
-                        if (selectedBlock.editable)                         
+                        if ((selectedBlock.type != "НАЧАЛО")&& (selectedBlock.type != "КОНЕЦ"))
                             textBox1.Enabled = true;
                         textBox1.Text = selectedBlock.text;
                     }
@@ -290,6 +280,7 @@ namespace pwsg_2
                 operationBlockButton.Visible = true;
                 decisionBlockButton.Visible = true;
                 CycleBlockButton.Visible = true;
+                stopBlockButton.Visible = true;
             }
             else
             {
@@ -297,26 +288,17 @@ namespace pwsg_2
                 operationBlockButton.Visible = false;
                 decisionBlockButton.Visible = false;
                 CycleBlockButton.Visible = false;
+                stopBlockButton.Visible = false;
             }
         }
         private void decisionBlockButton_Click(object sender, EventArgs e)
         {
             ReprintButtonFigures(180, true);
-            trash_mode = false;
-               decisionBlockButton.BackColor = Color.FromArgb(192, 192, 255);
-               decisionBlockButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(255 / 3, 192, 192, 255);
-               currentBlock = new DecisionBlock();
-               currentBlock.SetGraphics(pictureBox1, flagGraphics);
-               Block blok = currentBlock.CloneNew();
-               if (blok != null)
-               {
-                   blok.SetCoordinates(last_weidth, last_height);
-                   blok.Print();
-                    blocks.Insert(select_arrow_index + 1, blok);
-               }
-            int height_for_arrow = last_height + 49;
+            PrintBlock(new DecisionBlock());
 
-            //рисуем правую часть стрелки
+            int height_for_arrow = last_height + 50;
+
+           
             currentBlock = new HorizantalArrow();
             currentBlock.SetGraphics(pictureBox1, flagGraphics);
             Block blok1 = currentBlock.CloneNew();
@@ -329,7 +311,7 @@ namespace pwsg_2
 
             }
 
-            //рисуем левую часть стрелки
+           
 
             currentBlock = new HorizantalArrow();
             currentBlock.SetGraphics(pictureBox1, flagGraphics);
@@ -417,20 +399,9 @@ namespace pwsg_2
 
         private void operationBlockButton_Click(object sender, EventArgs e)
         {
-            ReprintButtonFigures(98, true);
+            ReprintButtonFigures(100, true);
 
-            trash_mode = false;
-            operationBlockButton.BackColor = Color.FromArgb(192, 192, 255);
-            operationBlockButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(255 / 3, 192, 192, 255);
-            currentBlock = new OperationBlock();
-            currentBlock.SetGraphics(pictureBox1, flagGraphics);
-            Block blok = currentBlock.CloneNew();
-            if (blok != null)
-            {
-                blok.SetCoordinates(last_weidth, last_height);
-                blok.Print();
-                blocks.Insert(select_arrow_index + 1, blok);
-            }
+            PrintBlock(new OperationBlock());
 
             int height_for_arrow = last_height + 50;
 
@@ -452,6 +423,7 @@ namespace pwsg_2
                         currentBlock = b;
                         currentBlock.SetGraphics(pictureBox1, flagGraphics);
                         Block blok1 = currentBlock.CloneNew();
+                        blok1.text = currentBlock.text;
                         if (blok1 != null)
                         {
                             if (isAdd)
@@ -468,15 +440,13 @@ namespace pwsg_2
                 }
               
         }
-        private void InputBlockButton_Click(object sender, EventArgs e)
+
+        private void PrintBlock(Block select_bloc)
         {
-            ReprintButtonFigures(100, true);
-
-
-                trash_mode = false;
+             trash_mode = false;
             InputBlockButton.BackColor = Color.FromArgb(192, 192, 255);
             InputBlockButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(255 / 3, 192, 192, 255);
-            currentBlock = new InputBlock();
+            currentBlock = select_bloc;
             currentBlock.SetGraphics(pictureBox1, flagGraphics);
             Block blok = currentBlock.CloneNew();
             if (blok != null)
@@ -486,9 +456,17 @@ namespace pwsg_2
                 //добавляем блок в список на КОНКРЕТНОЕ место - за быаранной стрелкой
                 blocks.Insert(select_arrow_index + 1, blok);
             }
+        }
+
+        private void InputBlockButton_Click(object sender, EventArgs e)
+        {
+            ReprintButtonFigures(100, true);
+
+            PrintBlock(new InputBlock());
+
 
             //задаем высоту для прорисовки стрелки
-            int height_for_arrow = last_height + 45;
+            int height_for_arrow = last_height + 50;
 
             DrawArrow(height_for_arrow);
 
@@ -515,7 +493,7 @@ namespace pwsg_2
         }
         private void CycleBlockButton_Click(object sender, EventArgs e)
         {
-            ReprintButtonFigures(380, true);
+            ReprintButtonFigures(388, true);
 
             trash_mode = false;
             CycleBlockButton.BackColor = Color.FromArgb(192, 192, 255);
@@ -525,7 +503,7 @@ namespace pwsg_2
             Block blok = currentBlock.CloneNew();
             if (blok != null)
             {
-                blok.SetCoordinates(300, last_height);
+                blok.SetCoordinates(last_weidth, last_height);
                 blok.Print();
                 blocks.Add(blok);
             }
@@ -538,7 +516,7 @@ namespace pwsg_2
             Block blok2 = currentBlock.CloneNew();
             if (blok2 != null)
             {
-                blok2.SetCoordinates(last_weidth+48, height_for_arrow-5);
+                blok2.SetCoordinates(last_weidth+48, height_for_arrow);
                 blok2.Print();
                 blocks.Insert(select_arrow_index + 2, blok2);
 
@@ -586,31 +564,31 @@ namespace pwsg_2
             Block blok6 = currentBlock.CloneNew();
             if (blok6 != null)
             {
-                blok6.SetCoordinates(last_weidth - 74, height_for_arrow +8);
+                blok6.SetCoordinates(last_weidth - 74, height_for_arrow +1);
                 blok6.Print();
                 blocks.Insert(select_arrow_index + 6, blok6);
 
 
             }
 
-            currentBlock = new HorizantalArrow();
+            currentBlock = new HorizantalArrowForCycle();
             currentBlock.SetGraphics(pictureBox1, flagGraphics);
             Block blok7 = currentBlock.CloneNew();
             if (blok7 != null)
             {
-                blok7.SetCoordinates(last_weidth - 74, height_for_arrow + 8);
+                blok7.SetCoordinates(last_weidth - 74, height_for_arrow + 1);
                 blok7.Print();
                 blocks.Insert(select_arrow_index + 7, blok7);
 
 
             }
 
-            currentBlock = new HorizantalArrow();
+            currentBlock = new HorizantalArrowForCycle();
             currentBlock.SetGraphics(pictureBox1, flagGraphics);
             Block blok8 = currentBlock.CloneNew();
             if (blok8 != null)
             {
-                blok8.SetCoordinates(last_weidth + 74, height_for_arrow + 8);
+                blok8.SetCoordinates(last_weidth + 83, height_for_arrow + 1);
                 blok8.Print();
                 blocks.Insert(select_arrow_index + 8, blok8);
 
@@ -622,7 +600,7 @@ namespace pwsg_2
             Block blok9 = currentBlock.CloneNew();
             if (blok9 != null)
             {
-                blok9.SetCoordinates(last_weidth + 128, height_for_arrow + 8);
+                blok9.SetCoordinates(last_weidth + 127, height_for_arrow + 1);
                 blok9.Print();
                 blocks.Insert(select_arrow_index + 9, blok9);
 
@@ -649,9 +627,6 @@ namespace pwsg_2
                 blocks.Insert(select_arrow_index + 11, blok11);
 
             }
-
-
-
             changeVisible(false);
 
         }
@@ -695,17 +670,13 @@ namespace pwsg_2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SaveFileDialog fileDialog = new SaveFileDialog();
-            fileDialog.Filter = "Diagram files (*.diag)|*.diag";
-            if (fileDialog.ShowDialog() == DialogResult.OK)
-            {
-                Stream file = fileDialog.OpenFile();
 
-                BinaryFormatter bformatter = new BinaryFormatter();
+            Form2 newForm = new Form2();
+            newForm.blocks = blocks;
+            newForm.pictureBox1 = pictureBox1;
+            newForm.Show();
 
-                bformatter.Serialize(file, blocks);
-                file.Close();
-            }
+
 
         }
 
@@ -741,12 +712,39 @@ namespace pwsg_2
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+
+        private void button3_Click_2(object sender, EventArgs e)
+        {
+            OpenFileDialog fileDialog = new OpenFileDialog();
+            fileDialog.Filter = "Diagram files (*.diag)|*.diag";
+            if (fileDialog.ShowDialog() == DialogResult.OK)
+            {
+                blocks = null;
+
+                Stream file = File.Open(fileDialog.FileName, FileMode.Open);
+                BinaryFormatter bformatter = new BinaryFormatter();
+
+                blocks = (List<Block>)bformatter.Deserialize(file);
+                file.Close();
+                foreach (Block b in blocks)
+                    b.SetGraphics(pictureBox1, flagGraphics);
+                ReprintPicture();
+
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form4 newForm = new Form4();
+            newForm.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
